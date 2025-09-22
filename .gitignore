@@ -1,0 +1,45 @@
+# Dependencias
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Entornos
+.env
+.env.local
+.env.*.local
+
+# Directorios de builds
+dist/
+build/
+out/
+coverage/
+
+# Archivos temporales de sistema
+.DS_Store
+Thumbs.db
+
+# Cachés
+.cache/
+.npm/
+.yarn/
+.pnp.*
+.next/
+.nuxt/
+.vscode/
+.idea/
+
+# Tests
+coverage/
+*.lcov
+
+# TypeScript
+*.tsbuildinfo
+
+# Docker
+docker-compose.ove
