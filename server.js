@@ -15,8 +15,8 @@ app.use(morgan('dev'));
 app.get('/health',(_req, res)=> res.json({ ok:true}));
 
 app.use('/api/v1/tasks',taskRoutes);
-// app.use('/api/v1/users',userRoutes);
-// app.use('/api/v1/tags',tagRoutes);
+app.use('/api/v1/users',userRoutes);
+app.use('/api/v1/tags',tagRoutes);
 
 
 app.listen(PORT, ()=>{
